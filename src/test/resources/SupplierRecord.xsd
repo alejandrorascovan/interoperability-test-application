@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SupplierRecord" type="SupplierRecordType"/>
+  <xs:complexType name="SupplierRecordType">
+    <xs:sequence>
+      <xs:element type="RecordType" name="Record"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RecordType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Payment_Types"/>
+        <xs:attribute type="xs:string" name="Email_Address"/>
+        <xs:attribute type="xs:string" name="Use_For1"/>
+        <xs:attribute type="xs:string" name="Phone_Device_Type"/>
+        <xs:attribute type="xs:int" name="Phone_Number"/>
+        <xs:attribute type="xs:short" name="Area_Code"/>
+        <xs:attribute type="xs:string" name="Primary"/>
+        <xs:attribute type="xs:string" name="Public1"/>
+        <xs:attribute type="xs:short" name="Postal_Code"/>
+        <xs:attribute type="xs:string" name="Municipality"/>
+        <xs:attribute type="xs:string" name="Type"/>
+        <xs:attribute type="xs:string" name="Country"/>
+        <xs:attribute type="xs:string" name="Effective_Date"/>
+        <xs:attribute type="xs:string" name="External_Entity_ID"/>
+        <xs:attribute type="xs:string" name="Business_Entity_Tax_ID"/>
+        <xs:attribute type="xs:string" name="Business_Entity_Name"/>
+        <xs:attribute type="xs:string" name="Default_Payment_Type"/>
+        <xs:attribute type="xs:string" name="Purchase_Order_Issue_Option"/>
+        <xs:attribute type="xs:string" name="Supplier_Category"/>
+        <xs:attribute type="xs:string" name="IRS_1099_Supplier"/>
+        <xs:attribute type="xs:string" name="Supplier_Name"/>
+        <xs:attribute type="xs:string" name="Supplier_Reference_ID"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

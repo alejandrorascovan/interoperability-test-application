@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SupplierRecord>
+  <Record Payment_Types="CHECK" Email_Address="kirkharris@bellsouth.net" Use_For1="REMIT" Phone_Device_Type="Telephone" Phone_Number="3572276" Area_Code="678" Primary="Y" Public1="Y" Postal_Code="30127" Municipality="POWDER SPRINGS" Type="BUSINESS" Country="UNITED STATES" Effective_Date="1/1/1900" External_Entity_ID="70736I" Business_Entity_Tax_ID="098-88-5079" Business_Entity_Name="KIRK HARRIS" Default_Payment_Type="CHECK" Purchase_Order_Issue_Option="PRINT" Supplier_Category="Settlement Services" IRS_1099_Supplier="N" Supplier_Name="KIRK HARRIS" Supplier_Reference_ID="70736I"/>
+</SupplierRecord>
